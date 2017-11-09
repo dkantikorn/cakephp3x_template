@@ -9,7 +9,7 @@ The framework source code can be found here: [cakephp/cakephp](https://github.co
 
 ## Installation
 
-##Git Clone for the repository
+## Git Clone for the repository
 
 ```bash
 $ git clone https://gitlab.pakgon.com/smart_panutad_team/SMART_COMMUNICATION.git.
@@ -23,7 +23,7 @@ $ cd SMART_COMMUNICATION/www
 $ composer install
 ```
 
-##NPM Layout package
+## NPM Layout package
 
 ```bash
 $ cd webroot
