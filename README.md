@@ -9,6 +9,15 @@ The framework source code can be found here: [cakephp/cakephp](https://github.co
 
 ## Installation
 
+$ [GIT CLONE](git clone https://gitlab.pakgon.com/smart_panutad_team/SMART_COMMUNICATION.git).
+$ cd SMART_COMMUNICATION/www
+$ composer install
+$ cd webroot
+$ npm install
+
+
+
+
 1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
 2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
 

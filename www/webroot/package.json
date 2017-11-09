@@ -1,0 +1,22 @@
+{
+  "name": "samrt_communications",
+  "version": "1.0.0",
+  "description": "PAKGON smart solution with smart communications.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "echo \"xxx\""
+  },
+  "author": "pakgon.Ltd",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "bower": "^1.8.0",
+    "font-awesome": "^4.7.0",
+    "infinite-scroll": "^3.0.0",
+    "toastr": "^2.1.2"
+  }
+}
