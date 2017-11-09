@@ -1,0 +1,21 @@
+###############################################################################################
+# Apache httpd-vhosts.conf
+###############################################################################################
+<VirtualHost *:80>
+  ServerName smart.communication.local
+  ServerAlias smart.communication.local
+  DocumentRoot "D:/xampp7/htdocs/SMART_COMMUNICATION/www"
+  ErrorLog "logs/smart.communication.local-error.log"
+  CustomLog "logs/smart.communication.local-access.log" common
+  <Directory "D:/xampp7/htdocs/SMART_COMMUNICATION/www">
+    Options +Indexes +Includes +FollowSymLinks +MultiViews
+    AllowOverride All
+    Require local
+  </Directory>
+</VirtualHost>
+
+############################################################################################### 
+# host file in Windows
+###############################################################################################
+127.0.0.1			smart.communication.local
+::1				smart.communication.local
