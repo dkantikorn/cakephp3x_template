@@ -215,3 +215,6 @@ Type::build('timestamp')
 if (Configure::read('debug')) {
     Plugin::load('DebugKit', ['bootstrap' => true]);
 }
+
+//Bootstraping for holt59/cakephp3-bootstrap-helpers
+Plugin::load('Bootstrap');
