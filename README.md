@@ -10,11 +10,10 @@ The framework source code can be found here: [cakephp/cakephp](https://github.co
 ## Installation
 
 $ [GIT CLONE](git clone https://gitlab.pakgon.com/smart_panutad_team/SMART_COMMUNICATION.git).
-$ cd SMART_COMMUNICATION/www
-$ composer install
-$ cd webroot
-$ npm install
-
+$ cd SMART_COMMUNICATION/www.
+$ composer install.
+$ cd webroot.
+$ npm install.
 
 
 
