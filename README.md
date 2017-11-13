@@ -32,3 +32,10 @@ $ cd webroot
 ```bash
 $ npm install
 ```
+
+## CRUD Code Generate
+## Current path are in bin directory
+
+```bash
+$ ./cake bake all [-c connection] [-t Pakgon]
+```
