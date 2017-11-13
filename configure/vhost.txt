@@ -2,12 +2,12 @@
 # Apache httpd-vhosts.conf
 ###############################################################################################
 <VirtualHost *:80>
-  ServerName smart.communication.local
-  ServerAlias smart.communication.local
-  DocumentRoot "D:/xampp7/htdocs/SMART_COMMUNICATION/www"
-  ErrorLog "logs/smart.communication.local-error.log"
-  CustomLog "logs/smart.communication.local-access.log" common
-  <Directory "D:/xampp7/htdocs/SMART_COMMUNICATION/www">
+  ServerName your.domain.local
+  ServerAlias your.domain.local.local
+  DocumentRoot "D:/xampp7/htdocs/cakephp3x_template/www"
+  ErrorLog "logs/your.domain.local.local-error.log"
+  CustomLog "logs/your.domain.local.local-access.log" common
+  <Directory "D:/xampp7/htdocs/cakephp3x_template/www">
     Options +Indexes +Includes +FollowSymLinks +MultiViews
     AllowOverride All
     Require local
@@ -17,5 +17,5 @@
 ############################################################################################### 
 # host file in Windows
 ###############################################################################################
-127.0.0.1			smart.communication.local
-::1				smart.communication.local
+127.0.0.1			your.domain.local
+::1				your.domain.local
