@@ -12,11 +12,11 @@ The framework source code can be found here: [cakephp/cakephp](https://github.co
 ## Git Clone for the repository
 
 ```bash
-$ git clone https://gitlab.pakgon.com/smart_panutad_team/SMART_COMMUNICATION.git.
+$ git clone https://github.com/dkantikorn/cakephp3x_template.git
 ```
 
 ```bash
-$ cd SMART_COMMUNICATION/www
+$ cd cakephp3x_template/www
 ```
 
 ```bash
