@@ -1,0 +1,82 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright sarawutt.b <sarawutt.b@pakgon.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2017-11-16 09:44+0000\n"
+"PO-Revision-Date: 2017-11-17 18:44+0700\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.3\n"
+"Last-Translator: sarawutt.b <sarawutt.b@gmail.com>\n"
+"Language: th_TH\n"
+
+#: Template/Courses/add.ctp:9 Template/Courses/edit.ctp:9
+#: Template/Courses/index.ctp:9;31 Template/Courses/view.ctp:9;93
+#: Template/CoursesUsers/add.ctp:9 Template/CoursesUsers/edit.ctp:9
+#: Template/CoursesUsers/index.ctp:9;31 Template/CoursesUsers/view.ctp:9
+#: Template/Faculties/add.ctp:9 Template/Faculties/edit.ctp:9
+#: Template/Faculties/index.ctp:9;29 Template/Faculties/view.ctp:9;67;120
+#: Template/Menus/edit.ctp:14 Template/Menus/index.ctp:9;36
+#: Template/Menus/view.ctp:9 Template/NamePrefixes/add.ctp:15
+#: Template/NamePrefixes/edit.ctp:15 Template/NamePrefixes/index.ctp:15;38
+#: Template/NamePrefixes/view.ctp:15;99 Template/Positions/add.ctp:15
+#: Template/Positions/edit.ctp:15 Template/Positions/index.ctp:15;35
+#: Template/Positions/view.ctp:15 Template/Roles/add.ctp:9
+#: Template/Roles/edit.ctp:9 Template/Roles/index.ctp:23
+#: Template/Roles/view.ctp:9;87 Template/Users/index.ctp:21
+#: Template/Users/view.ctp:126
+msgid "Actions"
+msgstr "การดำเนินการ"
+
+#: Template/Courses/add.ctp:10 Template/Courses/edit.ctp:16
+#: Template/Courses/view.ctp:12 Template/CoursesUsers/add.ctp:13
+#: Template/CoursesUsers/edit.ctp:19 Template/CoursesUsers/index.ctp:13
+#: Template/CoursesUsers/view.ctp:16 Template/Faculties/add.ctp:11
+#: Template/Faculties/edit.ctp:17 Template/Faculties/index.ctp:11
+#: Template/Faculties/view.ctp:14
+msgid "List Courses"
+msgstr "ชื่อรายการ"
+
+#: Template/Courses/add.ctp:11 Template/Courses/edit.ctp:17
+#: Template/Courses/index.ctp:11 Template/Courses/view.ctp:14
+#: Template/Faculties/add.ctp:10 Template/Faculties/edit.ctp:16
+#: Template/Faculties/view.ctp:12
+msgid "List Faculties"
+msgstr "ชื่อรายการ"
+
+#: Template/Courses/add.ctp:12 Template/Courses/edit.ctp:18
+#: Template/Courses/index.ctp:12 Template/Courses/view.ctp:15
+#: Template/Faculties/index.ctp:10 Template/Faculties/view.ctp:13
+msgid "New Faculty"
+msgstr "สร้างใหม่"
+
+#: Template/Courses/add.ctp:13 Template/Courses/edit.ctp:19
+#: Template/Courses/index.ctp:13 Template/Courses/view.ctp:16
+#: Template/CoursesUsers/add.ctp:11 Template/CoursesUsers/edit.ctp:17
+#: Template/CoursesUsers/index.ctp:11 Template/CoursesUsers/view.ctp:14
+#: Template/Faculties/add.ctp:13 Template/Faculties/edit.ctp:19
+#: Template/Faculties/index.ctp:13 Template/Faculties/view.ctp:16
+#: Template/NamePrefixes/add.ctp:17 Template/NamePrefixes/edit.ctp:23
+#: Template/NamePrefixes/index.ctp:17 Template/NamePrefixes/view.ctp:20
+#: Template/Roles/add.ctp:11 Template/Roles/edit.ctp:17
+#: Template/Roles/view.ctp:14
+msgid "List Users"
+msgstr "ผู้ใช้งาน"
+
+#: Template/Courses/add.ctp:14 Template/Courses/edit.ctp:20
+#: Template/Courses/index.ctp:14 Template/Courses/view.ctp:17
+#: Template/CoursesUsers/add.ctp:12 Template/CoursesUsers/edit.ctp:18
+#: Template/CoursesUsers/index.ctp:12 Template/CoursesUsers/view.ctp:15
+#: Template/Faculties/add.ctp:14 Template/Faculties/edit.ctp:20
+#: Template/Faculties/index.ctp:14 Template/Faculties/view.ctp:17
+#: Template/NamePrefixes/add.ctp:18 Template/NamePrefixes/edit.ctp:24
+#: Template/NamePrefixes/index.ctp:18 Template/NamePrefixes/view.ctp:21
+#: Template/Roles/add.ctp:12 Template/Roles/edit.ctp:18
+#: Template/Roles/view.ctp:15
+msgid "New User"
+msgstr "เพิ่มผู้ใช้งาน"

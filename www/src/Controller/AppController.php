@@ -18,6 +18,7 @@ namespace App\Controller;
 
 use Cake\Controller\Controller;
 use Cake\Event\Event;
+use Cake\I18n\I18n;
 
 /**
  * Application Controller
@@ -41,7 +42,7 @@ class AppController extends Controller {
         'Html' => ['className' => 'Bootstrap.Html'],
         'Modal' => ['className' => 'Bootstrap.Modal'],
         'Navbar' => ['className' => 'Bootstrap.Navbar', 'autoActiveLink' => true],
-        'Paginator' => ['className' => 'Bootstrap.Paginator'],
+        'Paginator' => ['className' => 'Bootstrap.Paginator','templates' => 'pakgon-paginator'],
         'Panel' => ['className' => 'Bootstrap.Panel']
     ];
 
@@ -56,7 +57,8 @@ class AppController extends Controller {
      */
     public function initialize() {
         parent::initialize();
-
+        I18n::setLocale('th_TH');
+        
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
 

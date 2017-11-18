@@ -57,6 +57,12 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/pages/*', ['controller' => 'Pages', 'action' => 'display']);
 
     /**
+     * For Request Handler parse with request extension
+     * @author sarawutt.b
+     */
+    $routes->extensions(['json', 'xml', 'ajax', 'rss']);
+    
+    /**
      * Connect catchall routes for all controllers.
      *
      * Using the argument `DashedRoute`, the `fallbacks` method is a shortcut for
